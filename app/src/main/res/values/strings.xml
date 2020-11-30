@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KolekcijaOmiljenihFilmova</string>
+    <string name="channel_name">my_channel</string>
+    <string name="channel_description">add_movie_channel</string>
+
+
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+
+</resources>

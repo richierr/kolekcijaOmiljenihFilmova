@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Add api">
+
+
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Input api" />
+    </PreferenceCategory>
+
+
+        <SwitchPreferenceCompat
+            android:id="@+id/show_tech_details"
+            android:key="show_tech_details"
+            app:title="Show tech details" />
+
+    <SwitchPreferenceCompat
+        android:id="@+id/show_participants"
+        android:key="show_participants"
+        app:title="Show participants" />
+
+
+
+</PreferenceScreen>
